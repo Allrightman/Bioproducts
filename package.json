@@ -40,5 +40,8 @@
   "mateAcademy": {
     "projectType": "layout"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bemlint": "^1.7.0",
+    "inputmask": "^5.0.6"
+  }
 }

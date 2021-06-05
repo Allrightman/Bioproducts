@@ -237,6 +237,32 @@
     }
   }
 
+  &__mail-link {
+    padding-bottom: 7px;
+
+    color: #e4dfd3;
+    border-bottom: 2px solid transparent;
+
+    transition: border-color 0.3s linear;
+
+    &:hover {
+      border-color: #e4dfd3;
+    }
+  }
+
+  &__phone-link {
+    padding-bottom: 7px;
+
+    color: #e4dfd3;
+    border-bottom: 2px solid transparent;
+
+    transition: border-color 0.3s linear;
+
+    &:hover {
+      border-color: #e4dfd3;
+    }
+  }
+
   &__facebook-link {
     display: inline-block;
     flex-direction: row;

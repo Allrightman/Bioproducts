@@ -173,6 +173,7 @@
 
   &__product-card {
     margin-right: 20px;
+    overflow: hidden;
 
     &:last-child {
       margin-right: 0;
@@ -206,6 +207,13 @@
 
     object-fit: cover;
     object-position: center;
+
+    transition: transform 0.2s linear;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+
     @media (max-width: $widthLaptopL - 1px) {
       &--last {
         width: 330px;
@@ -279,8 +287,8 @@
     height: 32px;
     margin-right: 16px;
 
-    background-image: url("../images/shop/arrow-left.svg");
-    cursor: pointer;
+    //background-image: url("../images/shop/arrow-left.svg");
+    //cursor: pointer;
 
     @media (max-width: $widthLaptopS - 1px) {
       margin-right: 34px;
@@ -296,8 +304,8 @@
     width: 32px;
     height: 32px;
 
-    background-image: url("../images/shop/arrow-right.svg");
-    cursor: pointer;
+    //background-image: url("../images/shop/arrow-right.svg");
+    //cursor: pointer;
 
     @media (max-width: $width-iPad - 1px) {
       margin-right: 20px;
